@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-vault-spark-delta"
+version = "0.1.0"
+description = "Projeto de modelagem de arquitetura Data Vault usando Spark e Delta Lake"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "3.4.1"
+delta-spark = "2.4.0"
+pandas = "^2.0.0"
+jupyter = "^1.0.0"
+jupyterlab = "^4.0.0"
+matplotlib = "^3.7.0"
+seaborn = "^0.12.2"
+pyarrow = "^14.0.0"
+boto3 = "^1.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

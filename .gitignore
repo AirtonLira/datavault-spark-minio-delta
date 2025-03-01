@@ -1,0 +1,58 @@
+# Dados
+data/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+hadoop_jars/
+**/hadoop_jars/
+
+# Arquivos de log
+*.log
+logs/
+*.jar
+# Diretório de ambiente virtual
+venv/
+.env
+.venv
+env/
+ENV/
+
+# Diretório de dados do Delta Lake
+delta/
+
+# Arquivos do Docker
+.dockerignore
+
+# Arquivos do PyCharm
+.idea/
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos temporários
+*.swp
+*.swo
+*~hadoop_jars/*.jar
